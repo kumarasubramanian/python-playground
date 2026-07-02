@@ -25,7 +25,7 @@ print("----------------------------------------")
 print(" Student Report ")
 print(" ----------------------------------------")
 
-print("Student Name : {name}")
+print(f"Student Name : {name}")
 
 print(f"Math      : {marks_Math}")
 
@@ -41,7 +41,7 @@ print("----------------------------------------")
 
 print(f"Total     : {total}")
 
-print(f"Average   : {average}")
+print(f"Average   : {average:.2f}")
 
 print(f"Grade      : {grade}")
 
