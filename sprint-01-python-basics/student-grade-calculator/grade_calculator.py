@@ -9,7 +9,18 @@ total = marks_Math + marks_Science + marks_English + marks_History +marks_Geogra
 
 average = total / 5
 
-grade = A
+
+if average >= 90:
+    grade = "A"
+elif average >= 80:
+    grade = "B"
+elif average >= 70:
+    grade = "C"
+elif average >= 60:
+    grade = "D"
+else:
+    grade = "F"
+  
 print("----------------------------------------")
 print(" Student Report ")
 print(" ----------------------------------------")
